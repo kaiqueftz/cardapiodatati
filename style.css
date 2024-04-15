@@ -1,11 +1,20 @@
-h1, h5{
+h1{
     text-align: center;
     font-family: 'fonte-h1';
     margin-top: 2%;
+    color: rgb(41, 177, 255);
+}
+
+h5{
+    font-family: 'fonte-h5';
 }
 
 p{
     font-family: 'fonte-p';
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #banner {
@@ -53,6 +62,9 @@ margin-left: auto;
 
 #container-gostou{
     margin-top: 50px;
+    font-family: 'fonte-h1';
+    font-size: 2.5rem;
+    color: rgb(80, 80, 80);
 }
 
 #container-bolo-decorado{
@@ -113,13 +125,20 @@ form {
 
 @font-face {
     font-family: 'fonte-h1';
-    src: url(font/Just\ Breathe.ttf) format('truetype');
+    src: url(font/Vacaciones-font-ffp-defharo.otf) format('truetype');
 }
 
 @font-face {
     font-family: 'fonte-p';
-    src: url(font/LEMONMILK-RegularItalic.otf);
+    src: url(font/Quesha.ttf);
 }
+
+@font-face {
+    font-family: 'fonte-h5';
+    src: url(font/Nova-Classic-Personal-Use-Only-Regular.ttf);
+}
+
+
 
 
 
